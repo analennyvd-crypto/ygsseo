@@ -10,3 +10,7 @@ and Spring Hill, FL.
 - [`docs/website-punch-list.md`](docs/website-punch-list.md) — prioritized
   audit and fix list for the current Squarespace site (trust/conversion +
   local SEO).
+- [`docs/marketing-plan.md`](docs/marketing-plan.md) — weekly lead-gen routine
+  across Google Business Profile, Facebook groups, and Craigslist.
+- [`templates/lead-tracker-template.xlsx`](templates/lead-tracker-template.xlsx) —
+  spreadsheet to log leads by source and track conversion rate.
