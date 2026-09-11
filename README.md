@@ -12,15 +12,18 @@ built for local SEO: `index.html`, `services.html`, `service-areas.html`,
 `gallery.html`, `about.html`, `contact.html`, plus `css/style.css`,
 `js/main.js`, `robots.txt`, and `sitemap.xml`.
 
-Before going live:
+Photos (bathroom x2, kitchen, flooring/open-concept, garage renovation),
+the Facebook page link, and the contact form's destination email
+(Ygsbrothers@gmail.com, via FormSubmit) are already wired in. Remaining
+before going live:
 
-- **Photos:** every image is a labeled gray placeholder. See
-  [`images/README.md`](images/README.md) for how to drop in real photos.
-- **Contact form:** `contact.html` posts to FormSubmit — replace
-  `YOUREMAIL@example.com` in the form's `action` with a real email, then
-  submit the form once live to receive FormSubmit's confirmation link.
-- **Facebook link:** replace the `#` placeholders in the footer/contact page
-  with the real Facebook page URL.
+- **Activate the contact form:** submit it once the site is live at its
+  real domain — FormSubmit emails a confirmation link to
+  Ygsbrothers@gmail.com the first time, and the form stays inactive until
+  that link is clicked.
+- **More photos:** plumbing and drywall-specific before/afters weren't
+  included yet — see [`images/README.md`](images/README.md) for how to
+  add more as jobs finish.
 
 To preview locally: `python3 -m http.server 8000` from this folder, then
 open `http://localhost:8000`.
