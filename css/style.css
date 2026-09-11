@@ -1,20 +1,21 @@
 /* YGS Brothers — Handyman Services
-   Design tokens */
+   Design tokens — matched to the gold/dark-ink logo */
 :root {
-  --navy: #0b2545;
-  --navy-dark: #071a33;
-  --navy-light: #13355e;
-  --orange: #e8622c;
-  --orange-dark: #c94f1f;
-  --gray-50: #f8f9fb;
-  --gray-100: #eef1f5;
-  --gray-300: #cdd4dd;
-  --gray-600: #5b6472;
-  --gray-900: #16202c;
+  --navy: #1a1410;
+  --navy-dark: #0f0b07;
+  --navy-light: #2b2118;
+  --orange: #b8912b;
+  --orange-dark: #93711f;
+  --gold-ink: #2a1f10;
+  --gray-50: #faf8f3;
+  --gray-100: #f1ebdd;
+  --gray-300: #ded0ab;
+  --gray-600: #6b6357;
+  --gray-900: #221c13;
   --white: #ffffff;
   --radius: 10px;
-  --shadow: 0 4px 16px rgba(11, 37, 69, 0.1);
-  --shadow-lg: 0 12px 32px rgba(11, 37, 69, 0.16);
+  --shadow: 0 4px 16px rgba(26, 20, 16, 0.1);
+  --shadow-lg: 0 12px 32px rgba(26, 20, 16, 0.16);
   --max-width: 1160px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -51,7 +52,7 @@ section { padding: 64px 0; }
   margin-bottom: 10px;
 }
 .lede { font-size: 1.15rem; color: var(--gray-600); max-width: 640px; }
-.section-navy .lede { color: #cdd9ea; }
+.section-navy .lede { color: #e7ddc4; }
 
 /* Buttons */
 .btn {
@@ -68,8 +69,8 @@ section { padding: 64px 0; }
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 .btn:hover { transform: translateY(-1px); }
-.btn-primary { background: var(--orange); color: var(--white); box-shadow: var(--shadow); }
-.btn-primary:hover { background: var(--orange-dark); }
+.btn-primary { background: var(--orange); color: var(--gold-ink); box-shadow: var(--shadow); }
+.btn-primary:hover { background: var(--orange-dark); color: var(--white); }
 .btn-outline { background: transparent; color: var(--white); border-color: rgba(255,255,255,0.5); }
 .btn-outline:hover { border-color: var(--white); }
 .btn-navy { background: var(--navy); color: var(--white); }
@@ -302,11 +303,12 @@ input:focus, textarea:focus, select:focus { outline: 2px solid var(--orange); bo
 .mobile-cta-bar .btn { flex: 1; padding: 12px; font-size: 0.9rem; }
 
 /* CTA band */
-.cta-band { background: var(--orange); color: var(--white); text-align: center; }
-.cta-band h2 { color: var(--white); }
-.cta-band .lede { color: rgba(255,255,255,0.9); margin: 0 auto 24px; }
+.cta-band { background: var(--orange); color: var(--gold-ink); text-align: center; }
+.cta-band h2 { color: var(--gold-ink); }
+.cta-band .lede { color: rgba(42,31,16,0.8); margin: 0 auto 24px; }
 .cta-band .btn-row { justify-content: center; }
-.cta-band .btn-outline { border-color: rgba(255,255,255,0.7); }
+.cta-band .btn-outline { color: var(--gold-ink); border-color: rgba(42,31,16,0.45); }
+.cta-band .btn-navy { color: var(--white); }
 
 /* Utility */
 .text-center { text-align: center; }
@@ -315,7 +317,7 @@ input:focus, textarea:focus, select:focus { outline: 2px solid var(--orange); bo
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(232, 98, 44, 0.12);
+  background: rgba(184, 145, 43, 0.14);
   color: var(--orange-dark);
   font-weight: 700;
   font-size: 0.8rem;
