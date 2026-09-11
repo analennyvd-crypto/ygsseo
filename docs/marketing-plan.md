@@ -43,9 +43,9 @@ Companion file: `templates/lead-tracker-template.xlsx`.
 
 ## Reviews
 
-- Get the direct "Ask for reviews" short link from the Google Business Profile app
-  (not the general Maps link) and text it same-day, with a gentle follow-up after
-  3–4 days if no response.
+- Direct review link: https://g.page/r/CZzgCFhpzqcqEBE/review — text it same-day
+  after every job, with a gentle follow-up after 3–4 days if no response. Also
+  live on the website (homepage review banner and Contact page).
 
 ## Business facts used (for consistency across site / GBP / Facebook / Craigslist)
 
